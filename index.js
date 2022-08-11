@@ -16,7 +16,7 @@
 
 console.log("Starting");
 
-const server = require("./api/server")
+const server = require("./api/server.js")
 
 //const PORT = 9000;
 const PORT = process.env.PORT || 9000
