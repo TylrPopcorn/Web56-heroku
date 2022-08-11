@@ -1,4 +1,6 @@
 /*
+    npm i dotenv
+
     ----Used for catching errors:
     npx eslint --init (problems, commonjs, none, no, NODE only, JSON, yes, npm)
 
@@ -15,6 +17,8 @@
 */
 
 console.log("Starting");
+
+require('dotenv').config();
 
 const server = require("./api/server.js")
 
