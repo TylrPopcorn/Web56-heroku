@@ -25,7 +25,7 @@ server.listen(PORT, () => {
     console.log("Listening on port: ", PORT)
 })
 
-
+/*
 //ASYNC example:
 function f() {
     setTimeout(() => console.log('done'), 1000);
@@ -71,3 +71,4 @@ async function asyncFunction() {
 
 //ENVIRONMENT VARIABLES:
 console.log(process.env)
+*/
